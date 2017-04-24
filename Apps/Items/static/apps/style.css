@@ -1,0 +1,111 @@
+/* DOCTYPE CSS */
+
+
+
+body {
+    font-family: Federo; 
+    font-size: 12pt;
+    text-align: center;
+    background-color: transparent;
+}
+
+.background {
+    display: inline-block;
+    background-color: transparent;
+    border: 3pt solid black;
+    border-radius: 3pt;
+    width: 400pt;
+    margin: 50pt 0pt 0pt;
+}
+
+h1 {
+    font-size: 30pt;
+    background-color: transparent;
+    margin: 5pt 0pt 10pt;
+}
+
+form {
+    display: inline-block;
+}
+
+#left {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: left;
+    width: 30%;
+    padding: 0pt 0pt 4pt;
+    margin: 0pt 0pt 0pt 25pt;
+}
+
+#right {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 60%;
+}
+
+label {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Federo;
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 10pt 25pt 10pt 10pt;
+}
+
+#detail {
+    margin: 10pt 25% 80pt 10pt;
+}
+
+.field {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-family: Federo;
+    font-size: 12pt;
+    background-color: whitesmoke;
+    border: 3pt solid black;
+    border-radius: 3pt;
+    width: 200pt;
+    padding: 5pt 5pt;
+    margin: 5pt 0pt;
+}
+
+textarea {
+    display: inline-block;
+    font-family: Federo;
+    font-size: 12pt;
+    background-color: whitesmoke;
+    border: 3pt solid black;
+    border-radius: 3pt;
+    resize: none;
+    height: 100pt;
+    width: 200pt;
+    padding: 5pt 5pt;
+    margin: 5pt 0pt;
+}
+
+#submit {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    font-family: Federo;
+    font-size: 16pt;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 3pt solid black;
+    border-radius: 3pt;
+    box-shadow: 4pt 4pt black;
+    padding: 5pt 20pt;
+    margin: 15pt 0pt 5pt;
+}
+
+
+
+#KKK {
+    background-color: transparent;
+}
+
+#LLL {
+    background-color: transparent;
+}

@@ -1,0 +1,39 @@
+<! DOCTYPE HTML >
+
+
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Products</title>
+        <meta name='summary' content='Check out our goods!'>
+        {% load static %}
+        <link rel='stylesheet' href='{% static 'apps/style.css' %}'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Federo" />
+    </head>
+    <body>
+        <div class='background'>
+            <h1>Products</h1>
+            <form  class='' action='/' method='POST'>
+                {% csrf_token %}
+                <div id="left">
+                    <label>Name:</label>
+                    <label id="detail">Description:</label>
+                    <label>Weight:</label>
+                    <label>Price:</label>
+                    <label>Cost:</label>
+                    <label>Category:</label>
+                </div>
+                <div id="right">
+                    <input type='text' name='name' class='field'>
+                    <textarea name='description'></textarea>
+                    <input type='text' name='weight' class='field'>
+                    <input type='text' name='price' class='field'>
+                    <input type='text' name='cost' class='field'>
+                    <input type='text' name='category' class='field'>
+                </div>
+                <input type='submit' name='submit' value='Submit' id='submit'>
+            </form>
+        </div>
+    </body>
+</html>
